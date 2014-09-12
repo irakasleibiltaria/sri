@@ -1,13 +1,10 @@
-sri
-===
-
-Servicios de Red e Internet
+# Servicios de Red e Internet
 
 [https://help.ubuntu.com/12.04/serverguide/index.html](https://help.ubuntu.com/12.04/serverguide/index.html)
 
-# DHCP
+## DHCP
 
-## Ubuntu DHCP Server
+### Ubuntu DHCP Server
 
 [https://help.ubuntu.com/12.04/serverguide/dhcp.html](https://help.ubuntu.com/12.04/serverguide/dhcp.html)
 

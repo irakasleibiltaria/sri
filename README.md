@@ -29,5 +29,9 @@ $ service isc-dhcp-server restart
 
 ### Installation
 
+```bash
+$ sudo apt-get install bind9
 
+
+```
 

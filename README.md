@@ -52,6 +52,17 @@ subnet 192.168.1.0 netmask 255.255.255.0 {
 }
 ```
 
+Service:
+
+```bash
+$ service isc-dhcp-server start | stop | restart
+```
+
+Log errors:
+```bash
+$ cat /var/log/syslog
+```
+
 ## DNS
 
 [https://help.ubuntu.com/12.04/serverguide/dns-installation.html](https://help.ubuntu.com/12.04/serverguide/dns-installation.html)

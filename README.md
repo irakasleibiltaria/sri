@@ -11,6 +11,7 @@ auto eth0
 iface eth0 inet static
 address 10.0.0.100
 netmask 255.255.255.0
+dns-nameservers 10.0.0.100, 8.8.8.8
 gateway 10.0.0.1
 ```
 
@@ -93,6 +94,12 @@ add
 ```bash
 $ sudo reboot
 ```
+
+Test /etc/resolv.conf
+```bash
+$ cat /etc/resolv.conf
+```
+
 ```bash
 $ sudo vim /etc/bind/named.conf.local
 

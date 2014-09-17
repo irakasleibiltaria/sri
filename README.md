@@ -63,6 +63,11 @@ Log errors:
 $ cat /var/log/syslog
 ```
 
+IPs asigned:
+```bash
+$ cat /var/lib/dhcpd/dhcpd.leases
+```
+
 ## DNS
 
 [https://help.ubuntu.com/12.04/serverguide/dns-installation.html](https://help.ubuntu.com/12.04/serverguide/dns-installation.html)

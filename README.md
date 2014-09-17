@@ -57,12 +57,10 @@ Service:
 ```bash
 $ service isc-dhcp-server start | stop | restart
 ```
-
 Log errors:
 ```bash
 $ cat /var/log/syslog
 ```
-
 IPs asigned:
 ```bash
 $ cat /var/lib/dhcpd/dhcpd.leases
@@ -92,26 +90,40 @@ add
 
 127.0.0.1       example.com
 ```
-
 ```bash
 $ sudo reboot
 ```
-
 ```bash
 $ sudo vim /etc/bind/named.conf.local
-```
 
-```bash
 zone "example.com" {
 	type master;
         file "/etc/bind/db.example.com";
 };
 ```
-
 ```bash
 $ sudo cp /etc/bind/db.local /etc/bind/db.example.com
 ```
+```bash
+$ sudo vim /etc/bind/db.example.com
 
+;
+; BIND data file for example.com
+;
+$TTL    604800
+@       IN      SOA     example.com. root.example.com. (
+                              2         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+        IN      A       192.168.1.10
+;
+@       IN      NS      ns.example.com.
+@       IN      A       192.168.1.10
+@       IN      AAAA    ::1
+ns      IN      A       192.168.1.10
+```
 ### test
 ```bash
 c:\> nslookup

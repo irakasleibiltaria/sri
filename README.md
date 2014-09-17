@@ -75,9 +75,41 @@ $ cat /var/lib/dhcpd/dhcpd.leases
 ### Installation
 
 ```bash
-$ sudo apt-get install bind9
+$ sudo apt-get install bind9 
+```
 
+Change hostname for FQDN (Fully Qualified Domain Name)
 
+```bash
+$ sudo echo "example.com" > /etc/hostname
+$ sudo service hostname restart
+```
+Edit hosts file
+```bash
+$ vim /etc/hosts
+
+add
+
+127.0.0.1       example.com
+```
+
+```bash
+$ sudo reboot
+```
+
+```bash
+$ sudo vim /etc/bind/named.conf.local
+```
+
+```bash
+zone "example.com" {
+	type master;
+        file "/etc/bind/db.example.com";
+};
+```
+
+```bash
+$ sudo cp /etc/bind/db.local /etc/bind/db.example.com
 ```
 
 ### test

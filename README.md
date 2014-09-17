@@ -80,3 +80,10 @@ $ sudo apt-get install bind9
 
 ```
 
+### test
+```bash
+c:\> nslookup
+```
+```bash
+$ host
+```

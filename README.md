@@ -79,7 +79,7 @@ $ sudo apt-get install bind9
 Change hostname for FQDN (Fully Qualified Domain Name)
 
 ```bash
-$ sudo echo "example.com" > /etc/hostname
+$ sudo echo "server.example.com" > /etc/hostname
 $ sudo service hostname restart
 ```
 Edit hosts file
@@ -111,7 +111,7 @@ $ sudo vim /etc/bind/db.example.com
 ; BIND data file for example.com
 ;
 $TTL    604800
-@       IN      SOA     example.com. root.example.com. (
+@       IN      SOA     example.com. server.example.com. (
                               2         ; Serial
                          604800         ; Refresh
                           86400         ; Retry

@@ -137,9 +137,14 @@ test	IN	A 	192.168.1.5
 www	IN	A	server
 ```
 ### test
+
+Windows:
 ```bash
 c:\> nslookup
 ```
+Linux:
+[dig host](http://blog.smalleycreative.com/linux/nslookup-is-dead-long-live-dig-and-host/)
 ```bash
 $ host
+$ dig
 ```

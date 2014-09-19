@@ -130,8 +130,11 @@ $TTL    604800
 @       IN      A       192.168.1.10
 @       IN      AAAA    ::1
 ns      IN      A       192.168.1.10
-;
+;A
+server	IN	A	192.168.1.1
 test	IN	A 	192.168.1.5
+;CNAME
+www	IN	A	server
 ```
 ### test
 ```bash

@@ -148,3 +148,7 @@ Linux:
 $ host
 $ dig
 ```
+
+### Slave DNS server
+
+TODO

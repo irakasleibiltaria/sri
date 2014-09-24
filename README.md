@@ -2,6 +2,8 @@
 
 [https://help.ubuntu.com/12.04/serverguide/index.html](https://help.ubuntu.com/12.04/serverguide/index.html)
 
+https://help.ubuntu.com/community/BIND9ServerHowto
+
 ## Network configuration
 
 [https://help.ubuntu.com/12.04/serverguide/network-configuration.html](https://help.ubuntu.com/12.04/serverguide/network-configuration.html)
@@ -136,7 +138,7 @@ test	IN	A 	192.168.1.5
 ;CNAME
 www	IN	A	server
 ```
-### test
+### DNS test
 
 Windows:
 ```bash
@@ -148,6 +150,10 @@ Linux:
 $ host
 $ dig
 ```
+
+### Reverse zone
+
+TODO
 
 ### Slave DNS server
 

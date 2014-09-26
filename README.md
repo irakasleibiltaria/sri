@@ -158,6 +158,6 @@ $ dig
 
 TODO
 
-### Slave DNS server
+### Secondary Master
 
 TODO

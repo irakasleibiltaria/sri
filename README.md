@@ -9,6 +9,10 @@ https://help.ubuntu.com/community/BIND9ServerHowto
 [https://help.ubuntu.com/12.04/serverguide/network-configuration.html](https://help.ubuntu.com/12.04/serverguide/network-configuration.html)
 
 ```bash
+$ ifconfig -a
+```
+
+```bash
 auto eth0
 iface eth0 inet static
 address 10.0.0.100

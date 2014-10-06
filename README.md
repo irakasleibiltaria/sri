@@ -161,6 +161,10 @@ Linux:
 $ host
 $ dig
 ```
+Clear DNS cache:
+```bash
+$ ipconfig /flushdns
+```
 
 ### Reverse zone
 

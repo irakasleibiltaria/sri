@@ -180,4 +180,6 @@ http://www.barlow.eu.com/techblog/installing-master-and-slave-dns-servers-using-
 
 http://www.microhowto.info/howto/configure_bind_as_a_slave_dns_server.html
 
+Dumping master file: permission denied: read: http://www.microhowto.info/howto/configure_bind_as_a_slave_dns_server.html
+
 

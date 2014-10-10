@@ -181,5 +181,14 @@ http://www.barlow.eu.com/techblog/installing-master-and-slave-dns-servers-using-
 http://www.microhowto.info/howto/configure_bind_as_a_slave_dns_server.html
 
 Dumping master file: permission denied: read: http://www.microhowto.info/howto/configure_bind_as_a_slave_dns_server.html
+```
+Dumping master file: permission denied
 
+An error of the form:
+
+dumping master file: /etc/bind/tmp-nIOVHD85JX: open: permission denied
+on ns1 indicates that named has successfully performed a zone transfer, but was unable to write the result to a zone file because it did not have permission to write to the relevant directory.
+
+In this particular case it has been incorrectly configured to write the zone file to /etc/bind. You should not attempt to fix this by granting write access to that directory: there are good security reasons why named should only have read access to its configuration. Instead you should write the zone file to some other location. On Debian-based systems, the appropriate location is /var/lib/bind.
+```
 

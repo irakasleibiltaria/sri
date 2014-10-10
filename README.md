@@ -192,3 +192,6 @@ on ns1 indicates that named has successfully performed a zone transfer, but was 
 In this particular case it has been incorrectly configured to write the zone file to /etc/bind. You should not attempt to fix this by granting write access to that directory: there are good security reasons why named should only have read access to its configuration. Instead you should write the zone file to some other location. On Debian-based systems, the appropriate location is /var/lib/bind.
 ```
 
+Amazon Route 53:
+
+http://aws.amazon.com/route53/

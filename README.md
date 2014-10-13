@@ -195,3 +195,9 @@ In this particular case it has been incorrectly configured to write the zone fil
 Amazon Route 53:
 
 http://aws.amazon.com/route53/
+
+## APACHE
+
+https://help.ubuntu.com/12.04/serverguide/httpd.html
+
+

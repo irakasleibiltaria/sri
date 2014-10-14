@@ -201,6 +201,34 @@ http://aws.amazon.com/route53/
 https://help.ubuntu.com/12.04/serverguide/httpd.html
 
 #### Installation
+```bash
+$ sudo apt-get install apache2
+```
 
-#### 
+#### Configuration
+
+```
+/etc/apache2/
+#       |-- apache2.conf
+#       |       `--  ports.conf
+#       |-- mods-enabled
+#       |       |-- *.load
+#       |       `-- *.conf
+#       |-- conf-enabled
+#       |       `-- *.conf
+#       `-- sites-enabled
+#               `-- *.conf
+
+```
+
+```
+/etc/apache2/apache2.conf
+```
+Change default document root
+Change default listen port number
+
+Add virtual hosts
+
+https
+
 

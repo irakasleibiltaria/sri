@@ -210,6 +210,15 @@ $ sudo /etc/init.d/apache2 restart
 $ sudo apache2ctl restart
 ```
 
+command line:
+```
+$ apache2 args
+$ apache2 -l
+```
+
+http://www.ubuntugeek.com/simple-commands-to-manage-apache2-sites-and-modules.html
+
+
 #### Configuration
 
 ```

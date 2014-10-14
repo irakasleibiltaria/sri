@@ -200,9 +200,14 @@ http://aws.amazon.com/route53/
 
 https://help.ubuntu.com/12.04/serverguide/httpd.html
 
+https://httpd.apache.org/docs/2.4/
+
 #### Installation
 ```bash
 $ sudo apt-get install apache2
+
+$ sudo /etc/init.d/apache2 restart
+$ sudo apache2ctl restart
 ```
 
 #### Configuration
@@ -224,11 +229,34 @@ $ sudo apt-get install apache2
 ```
 /etc/apache2/apache2.conf
 ```
-Change default document root
-Change default listen port number
+Global configuration parameters:
+```
+Timeout 300
+MaxKeepAliveRequests 100
+...
+ErrorLog ${APACHE_LOG_DIR}/error.log
+...
+IncludeOptional mods-enabled/*.load
+IncludeOptional mods-enabled/*.conf
 
-Add virtual hosts
+Include ports.conf
+
+```
+Change default document root
+
+
+
+Change default listen port number
+```
+/etc/apache2/ports.conf
+```
+
+VirtualHosts
 
 https
+
+modules: php, ...
+
+Security
 
 

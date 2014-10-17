@@ -264,12 +264,20 @@ https://httpd.apache.org/docs/2.4/bind.html
 
 VirtualHosts:
 
+http://httpd.apache.org/docs/current/mod/core.html#directory
+
+http://httpd.apache.org/docs/2.4/mod/core.html.en#options
+
 ```
 # create a new VirtualHosts
 # http://docs.domain.com 
 # add a CNAME record "docs" in DNS
 
 $ sudo cp /etc/apache2/sites-available/default /etc/apache2/sites-available/mynewsite
+
+$ sudo vim /etc/apache2/sites-available/mynewsite
+
+
 
 $ sudo service apache2 reload
 ```

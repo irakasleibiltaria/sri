@@ -264,6 +264,16 @@ https://httpd.apache.org/docs/2.4/bind.html
 
 VirtualHosts:
 
+```
+# create a new VirtualHosts
+# http://docs.domain.com 
+# add a CNAME record "docs" in DNS
+
+$ sudo cp /etc/apache2/sites-available/default /etc/apache2/sites-available/mynewsite
+
+$ sudo service apache2 reload
+```
+
 
 
 https/ssl:

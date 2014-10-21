@@ -83,6 +83,8 @@ $ cat /var/lib/dhcpd/dhcpd.leases
 
 https://help.ubuntu.com/community/BIND9ServerHowto
 
+http://en.wikipedia.org/wiki/List_of_DNS_record_types
+
 
 ### Installation
 
@@ -279,7 +281,28 @@ $ sudo vim /etc/apache2/sites-available/mynewsite
 
 
 
+
 $ sudo service apache2 reload
+```
+
+telnet
+```
+c:/> telnet www.domain.com 80
+
+GET
+
+```
+
+curl
+```
+c:/> curl ....
+```
+
+Alias:
+
+www.domain.com/aliasname
+```
+file
 ```
 
 

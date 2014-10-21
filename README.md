@@ -264,7 +264,7 @@ https://httpd.apache.org/docs/2.4/bind.html
 /etc/apache2/ports.conf
 ```
 
-VirtualHosts:
+######VirtualHosts:
 
 http://httpd.apache.org/docs/current/mod/core.html#directory
 
@@ -285,6 +285,28 @@ $ sudo vim /etc/apache2/sites-available/mynewsite
 $ sudo service apache2 reload
 ```
 
+######.htaccess:
+
+TODO
+
+######Alias:
+
+www.domain.com/aliasname
+```
+file
+```
+
+######https/ssl:
+
+https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html
+
+
+modules: php, ...
+
+
+
+######Test:
+
 telnet
 ```
 c:/> telnet www.domain.com 80
@@ -297,22 +319,6 @@ curl
 ```
 c:/> curl ....
 ```
-
-Alias:
-
-www.domain.com/aliasname
-```
-file
-```
-
-
-
-https/ssl:
-
-https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html
-
-
-modules: php, ...
 
 
 Security:

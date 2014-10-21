@@ -291,9 +291,9 @@ TODO
 
 ######Alias:
 
-www.domain.com/aliasname
+http://httpd.apache.org/docs/current/mod/mod_alias.html
 ```
-file
+...
 ```
 
 ######https/ssl:

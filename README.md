@@ -182,6 +182,20 @@ http://www.barlow.eu.com/techblog/installing-master-and-slave-dns-servers-using-
 
 http://www.microhowto.info/howto/configure_bind_as_a_slave_dns_server.html
 
+
+Master:
+/etc/bind/named.conf.local
+```
+zone "ubuntu.zubiri" {
+	type master;
+	file "/etc/bind/db.ubuntu.zubiri";
+	allow-transfer { 192.168.1.2; };
+	notify yes;
+};
+```
+Slave:
+
+
 Dumping master file: permission denied: read: http://www.microhowto.info/howto/configure_bind_as_a_slave_dns_server.html
 ```
 Dumping master file: permission denied
@@ -279,7 +293,27 @@ $ sudo cp /etc/apache2/sites-available/default /etc/apache2/sites-available/myne
 
 $ sudo vim /etc/apache2/sites-available/mynewsite
 
+<VirtualHost *:80>
+	ServerAdmin webmaster@localhost
+	
+	ServerAlias docs.ubuntu.zubiri
 
+	DocumentRoot /home/ubuntu
+
+	#DirectoryIndex	index3.html
+
+	#<Directory />
+	#	Options FollowSymLinks
+	#	AllowOverride None
+	#</Directory>
+	#<Directory /home/zubiri/>
+	#	Options Indexes FollowSymLinks MultiViews
+	#	AllowOverride None
+	#	Order allow,deny
+	#	allow from all
+	#</Directory>
+
+</VirtualHost>
 
 
 $ sudo service apache2 reload

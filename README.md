@@ -194,6 +194,13 @@ zone "ubuntu.zubiri" {
 };
 ```
 Slave:
+```
+zone "ubuntu.zubiri" {
+	type slave;
+	file "/var/lib/bind/db.ubuntu.zubiri";
+	masters { 192.168.1.1; };
+};
+```
 
 
 Dumping master file: permission denied: read: http://www.microhowto.info/howto/configure_bind_as_a_slave_dns_server.html

@@ -337,7 +337,17 @@ $ sudo service apache2 reload
 
 http://httpd.apache.org/docs/current/mod/core.html
 
+######modules
 
+enable disable modules:
+```
+$ sudo a2enmod ...
+$ sudo a2dismon ...
+```
+list of enabled mudules:
+```
+$ apache2ctl -M
+```
 
 ######.htaccess:
 
@@ -349,7 +359,11 @@ http://httpd.apache.org/docs/current/howto/htaccess.html
 
 http://httpd.apache.org/docs/current/howto/access.html
 
+http://httpd.apache.org/docs/2.2/howto/access.html
+
+
 ######Authentication
+
 http://httpd.apache.org/docs/current/mod/mod_authn_core.html
 
 ######Alias:

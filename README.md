@@ -347,7 +347,7 @@ http://httpd.apache.org/docs/current/howto/htaccess.html
 
 ######Access control
 
-http://httpd.apache.org/docs/2.2/howto/access.html
+http://httpd.apache.org/docs/current/howto/access.html
 
 ######Authentication
 http://httpd.apache.org/docs/current/mod/mod_authn_core.html

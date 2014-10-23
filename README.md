@@ -345,10 +345,11 @@ http://httpd.apache.org/docs/current/mod/core.html#allowoverride
 
 http://httpd.apache.org/docs/current/howto/htaccess.html
 
-######Authentication. Access control.
+######Access control
 
 http://httpd.apache.org/docs/2.2/howto/access.html
 
+######Authentication
 http://httpd.apache.org/docs/current/mod/mod_authn_core.html
 
 ######Alias:

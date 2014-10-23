@@ -366,6 +366,10 @@ http://httpd.apache.org/docs/2.2/howto/access.html
 
 http://httpd.apache.org/docs/current/mod/mod_authn_core.html
 
+ldap authentication:
+
+http://httpd.apache.org/docs/current/mod/mod_authnz_ldap.html
+
 ######Alias:
 
 http://httpd.apache.org/docs/current/mod/mod_alias.html

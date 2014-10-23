@@ -321,8 +321,17 @@ $ sudo vim /etc/apache2/sites-available/mynewsite
 	#</Directory>
 
 </VirtualHost>
+```
 
+enable mynewsite:
+```
+$ sudo a2ensite mynewsite
+$ sudo service apache2 reload
+```
 
+disable site
+```
+$ sudo a2dissite mynewsite
 $ sudo service apache2 reload
 ```
 

@@ -335,9 +335,21 @@ $ sudo a2dissite mynewsite
 $ sudo service apache2 reload
 ```
 
+http://httpd.apache.org/docs/current/mod/core.html
+
+
+
 ######.htaccess:
 
-TODO
+http://httpd.apache.org/docs/current/mod/core.html#allowoverride
+
+http://httpd.apache.org/docs/current/howto/htaccess.html
+
+######Authentication. Access control.
+
+http://httpd.apache.org/docs/2.2/howto/access.html
+
+http://httpd.apache.org/docs/current/mod/mod_authn_core.html
 
 ######Alias:
 

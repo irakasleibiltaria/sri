@@ -223,7 +223,40 @@ http://aws.amazon.com/route53/
 
 http://ubuntuforums.org/showthread.php?t=1271929
 
+/etc/bind/named.conf.local
+```
+zone "ubuntu.zubiri" {
+	type master;
+	file "/etc/bind/db.ubuntu.zubiri";
+	allow-transfer { 192.168.1.2; };
+	notify yes;
+};
 
+zone "ubuntu2.zubiri" {
+	type master;
+	file "/etc/bind/db.ubuntu2.zubiri";
+};
+```
+
+/etc/bind/db.ubuntu2.zubiri
+```
+;
+; BIND data file for ubuntu.zubiri
+$TTL	604800
+$ORIGIN ubuntu2.zubiri.
+@	IN	SOA	ubuntu.zubiri. server.ubuntu.zubiri. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	ns.ubuntu.zubiri.
+; A
+server	IN	A	192.168.1.1
+; CNAME
+www	IN	CNAME	server
+```
 
 ## APACHE
 

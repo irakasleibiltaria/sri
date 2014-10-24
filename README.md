@@ -219,6 +219,12 @@ Amazon Route 53:
 
 http://aws.amazon.com/route53/
 
+### Multiple zones same bind server
+
+http://ubuntuforums.org/showthread.php?t=1271929
+
+
+
 ## APACHE
 
 https://help.ubuntu.com/12.04/serverguide/httpd.html

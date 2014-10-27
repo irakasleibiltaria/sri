@@ -412,6 +412,8 @@ http://httpd.apache.org/docs/2.2/howto/access.html
 
 http://httpd.apache.org/docs/current/mod/mod_authn_core.html
 
+http://httpd.apache.org/docs/2.4/programs/htpasswd.html
+
 ldap authentication:
 
 http://httpd.apache.org/docs/current/mod/mod_authnz_ldap.html

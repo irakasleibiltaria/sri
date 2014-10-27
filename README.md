@@ -397,12 +397,16 @@ http://httpd.apache.org/docs/current/howto/htaccess.html
 ######Authentication and Authorization
 http://httpd.apache.org/docs/2.4/howto/auth.html
 
+tutorials:
+
+https://www.linode.com/docs/websites/authbased-access-control-with-apache
+
+
 ######Access control
 
 http://httpd.apache.org/docs/current/howto/access.html
 
 http://httpd.apache.org/docs/2.2/howto/access.html
-
 
 ######Authentication
 
@@ -411,6 +415,7 @@ http://httpd.apache.org/docs/current/mod/mod_authn_core.html
 ldap authentication:
 
 http://httpd.apache.org/docs/current/mod/mod_authnz_ldap.html
+
 
 ######Alias:
 

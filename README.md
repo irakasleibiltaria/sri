@@ -394,6 +394,9 @@ http://httpd.apache.org/docs/current/mod/core.html#allowoverride
 
 http://httpd.apache.org/docs/current/howto/htaccess.html
 
+######Authentication and Authorization
+http://httpd.apache.org/docs/2.4/howto/auth.html
+
 ######Access control
 
 http://httpd.apache.org/docs/current/howto/access.html

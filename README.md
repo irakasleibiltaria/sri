@@ -423,6 +423,9 @@ http://httpd.apache.org/docs/current/mod/mod_alias.html
 
 https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html
 
+https://help.ubuntu.com/12.04/serverguide/certificates-and-security.html
+
+
 
 modules: php, ...
 

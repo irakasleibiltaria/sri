@@ -401,6 +401,26 @@ tutorials:
 
 https://www.linode.com/docs/websites/authbased-access-control-with-apache
 
+Example:
+
+Create .htpassword-users
+```
+$ htpassword -c .htpassword-users username
+```
+add new user
+```
+$ htpassword .htpassword-users username2
+```
+Configure virtualhost:
+```
+	<Directory /home/ubuntu/>
+		AuthType Basic
+		AuthUserFile /home/ubuntu/.htpassword-users
+		AuthName "only name"
+		Require valid-user
+	</Directory>
+```
+
 
 ######Access control
 

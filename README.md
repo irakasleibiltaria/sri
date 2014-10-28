@@ -458,6 +458,8 @@ https://help.ubuntu.com/12.04/serverguide/certificates-and-security.html
 
 Tutorial:
 
+https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04
+
 https://www.linode.com/docs/security/ssl/ssl-certificates-with-apache-2-on-ubuntu-10-10-maverick
 
 

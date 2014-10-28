@@ -401,6 +401,8 @@ tutorials:
 
 https://www.linode.com/docs/websites/authbased-access-control-with-apache
 
+http://blog.unlugarenelmundo.es/2010/03/13/autenticacion-en-apache-basica-y-pam/
+
 Example:
 
 Create .htpassword-users

@@ -456,9 +456,12 @@ https://help.ubuntu.com/14.04/serverguide/httpd.html#https-configuration
 
 https://help.ubuntu.com/12.04/serverguide/certificates-and-security.html
 
+Tutorial:
+
+https://www.linode.com/docs/security/ssl/ssl-certificates-with-apache-2-on-ubuntu-10-10-maverick
 
 
-modules: php, ...
+######modules: php, ...
 
 
 

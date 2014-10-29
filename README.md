@@ -472,6 +472,11 @@ To use your own certificate:
 ```
 $ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/apache2/ssl/apache.key -out /etc/apache2/ssl/apache.crt
 ```
+/etc/apache2/sites-availables/default-ssl
+```
+	SSLCertificateFile /..../apache.crt
+	SSLCertificateKeyFile /..../apache.key
+```
 
 
 

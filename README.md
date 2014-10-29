@@ -462,6 +462,13 @@ https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate
 
 https://www.linode.com/docs/security/ssl/ssl-certificates-with-apache-2-on-ubuntu-10-10-maverick
 
+Conigure:
+```
+$ sudo a2enmod ssl
+$ sudo a2ensite default-ssl
+$ sudo service apache2 reload
+```
+
 
 ######modules: php, ...
 

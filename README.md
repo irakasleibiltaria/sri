@@ -525,6 +525,16 @@ http://winscp.net/
 
 https://filezilla-project.org/
 
+Options: (/etc/vsftpd.conf)
+
+- disable anonymous login
+
+```
+
+```
+- sdfsd
+- 
+
 
 #### Install / config
 
@@ -537,4 +547,9 @@ $ sudo apt-get install vsftpd
 wireshark: https://www.wireshark.org/
 
 iptraf: http://iptraf.seul.org/
+
+```
+# see configuration lines removing comments
+$ grep -v '^#' filename.conf
+```
 

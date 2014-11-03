@@ -521,11 +521,16 @@ https://help.ubuntu.com/community/vsftpd
 
 Clients:
 
+http://winscp.net/
+
 https://filezilla-project.org/
 
 
-#### Install
+#### Install / config
 
+```
+$ sudo apt-get install vsftpd
+```
 
 ## Tools
 

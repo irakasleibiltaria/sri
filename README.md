@@ -521,6 +521,8 @@ https://help.ubuntu.com/community/vsftpd
 
 Clients:
 
+c:
+
 http://winscp.net/
 
 https://filezilla-project.org/
@@ -530,9 +532,15 @@ Options: (/etc/vsftpd.conf)
 - disable anonymous login
 
 ```
-
+#anonymous_enable=YES
+local_enable=YES
 ```
-- sdfsd
+- chroot or jail users – limit users to only their home directory
+```
+#anonymous_enable=YES
+local_enable=YES
+chroot_local_user=YES
+```
 - 
 
 

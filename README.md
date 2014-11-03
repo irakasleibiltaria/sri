@@ -478,6 +478,15 @@ $ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/apache2/
 	SSLCertificateKeyFile /..../apache.key
 ```
 
+######Redirect:
+
+redirect http to https (for example)
+
+https://www.sslshopper.com/apache-redirect-http-to-https.html
+
+https://wiki.apache.org/httpd/RedirectSSL
+
+http://httpd.apache.org/docs/trunk/mod/mod_alias.html#redirect
 
 
 ######modules: php, ...

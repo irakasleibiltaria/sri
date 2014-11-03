@@ -483,7 +483,6 @@ $ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/apache2/
 ######modules: php, ...
 
 
-
 ######Test:
 
 telnet
@@ -502,4 +501,19 @@ c:/> curl ....
 
 Security:
 
+
+## DHCP
+
+VSFTPD
+
+https://security.appspot.com/vsftpd.html
+
+#### Install
+
+
+## Tools
+
+wireshark: https://www.wireshark.org/
+
+iptraf: http://iptraf.seul.org/
 

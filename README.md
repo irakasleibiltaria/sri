@@ -488,6 +488,12 @@ https://wiki.apache.org/httpd/RedirectSSL
 
 http://httpd.apache.org/docs/trunk/mod/mod_alias.html#redirect
 
+Redirect from http://www.domain.com TO https://www.domain.com:
+Add this in the virtualhost of http://www.domain.com
+```
+Redirect permanent / https://www.domain.com/
+```
+
 
 ######modules: php, ...
 

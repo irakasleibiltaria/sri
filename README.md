@@ -543,19 +543,15 @@ chroot_local_user=YES
 ```
 Don't work (Ubuntu 12.04 version!!!):
 
-Solution: Upgrade vsftpd:
-```
-$ sudo apt-get install python-software-properties
-$ sudo add-apt-repository ppa:thefrontiergroup/vsftpd
-$ sudo apt-get update
-$ sudo apt-get install vsftpd
-```
 http://www.linuxquestions.org/questions/ubuntu-63/vsftpd-chroot_local_user%3Dyes-is-not-working-554410/
 
 http://www.mikestechblog.com/joomla/operating-systems-section/operating-systems-ubuntu/155-500-oops-vsftpd-refusing-to-run-with-writable-root-inside-chroot.html
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-vsftpd-on-ubuntu-12-04
 
+http://askubuntu.com/questions/239239/500-oops-vsftpd-refusing-to-run-with-writable-root-inside-chroot-keep-user-j
+
+Solution: ???
 - 
 
 

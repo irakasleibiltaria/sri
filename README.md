@@ -552,6 +552,13 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-vsftpd-on-ubuntu-
 http://askubuntu.com/questions/239239/500-oops-vsftpd-refusing-to-run-with-writable-root-inside-chroot-keep-user-j
 
 Solution: ???
+
+One solution: use ssh:
+
+http://www.howtoforge.com/restricting-users-to-sftp-plus-setting-up-chrooted-ssh-sftp-debian-squeeze
+
+https://www.linode.com/docs/tools-reference/tools/limiting-access-with-sftp-jails-on-debian-and-ubuntu
+
 - 
 
 

@@ -546,8 +546,9 @@ local_enable=YES
 #anonymous_enable=YES
 local_enable=YES
 chroot_local_user=YES
+allow_writeable_chroot=YES
 ```
-Don't work (Ubuntu 12.04 version!!!):
+IF Don't work (Ubuntu 12.04 version!!!):
 
 http://www.linuxquestions.org/questions/ubuntu-63/vsftpd-chroot_local_user%3Dyes-is-not-working-554410/
 
@@ -557,9 +558,9 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-vsftpd-on-ubuntu-
 
 http://askubuntu.com/questions/239239/500-oops-vsftpd-refusing-to-run-with-writable-root-inside-chroot-keep-user-j
 
-Solution: ???
 
-One solution: use ssh:
+
+Other Option, use ssh:
 
 http://www.howtoforge.com/restricting-users-to-sftp-plus-setting-up-chrooted-ssh-sftp-debian-squeeze
 

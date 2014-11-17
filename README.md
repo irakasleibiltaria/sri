@@ -342,6 +342,8 @@ $ sudo vim /etc/apache2/sites-available/mynewsite
 <VirtualHost *:80>
 	ServerAdmin webmaster@localhost
 	
+	ServerName ubuntu.zubiri
+	
 	ServerAlias docs.ubuntu.zubiri
 
 	DocumentRoot /home/ubuntu

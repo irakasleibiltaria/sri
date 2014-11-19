@@ -588,3 +588,18 @@ iptraf: http://iptraf.seul.org/
 $ grep -v '^#' filename.conf
 ```
 
+## Mail Server
+
+https://help.ubuntu.com/14.04/serverguide/email-services.html
+
+http://www.postfix.org/
+
+http://dovecot.org/
+
+http://squirrelmail.org/
+
+http://www.exim.org/
+
+http://spamassassin.apache.org/
+
+

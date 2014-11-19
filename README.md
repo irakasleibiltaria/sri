@@ -602,4 +602,17 @@ http://www.exim.org/
 
 http://spamassassin.apache.org/
 
+http://www.zimbra.com/
+
+http://products.office.com/en-us/exchange/email
+
+http://products.office.com/en-us/outlook/email-and-calendar-software-microsoft-outlook
+
+https://www.mozilla.org/en-US/thunderbird/features/
+
+http://mailchimp.com/
+
+http://www.mailgun.com/
+
+
 

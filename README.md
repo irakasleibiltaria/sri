@@ -630,7 +630,10 @@ Port-forwarding is supported (using the "-p" switch for IPv4 and "-P" for IPv6):
 ```
 VBoxManage natnetwork modify -t nat-int-network -p "ssh:tcp:[]:10022:[192.168.15.15]:22"
 ```
-
+To see the list of registered NAT networks, use:
+```
+VBoxManage list natnetworks
+```
 Then configure VirtualBox Network to "Network NAT"
 
 

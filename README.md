@@ -620,11 +620,17 @@ http://www.mailgun.com/
 
 https://www.virtualbox.org/manual/ch06.html#network_nat_service
 
-[PC1 - ... - Server][NAT] <-> internet
+[PC1 - PC2 - ... - Server][NAT] <-> internet
 
 To create a NAT network. The router is 192.168.15.1
 ```
 VBoxManage natnetwork add -t nat-int-network -n "192.168.15.0/24" -e
 ```
-Then configure VirtualBox Machines to "Network NAT"
+Port-forwarding is supported (using the "-p" switch for IPv4 and "-P" for IPv6):
+```
+VBoxManage natnetwork modify -t nat-int-network -p "ssh:tcp:[]:10022:[192.168.15.15]:22"
+```
+
+Then configure VirtualBox Network to "Network NAT"
+
 

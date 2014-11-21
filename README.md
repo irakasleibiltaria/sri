@@ -614,5 +614,17 @@ http://mailchimp.com/
 
 http://www.mailgun.com/
 
+## VirtualBox
 
+### Network NAT
+
+https://www.virtualbox.org/manual/ch06.html#network_nat_service
+
+[PC1 - ... - Server][NAT] <-> internet
+
+To create a NAT network. The router is 192.168.15.1
+```
+VBoxManage natnetwork add -t nat-int-network -n "192.168.15.0/24" -e
+```
+Then configure VirtualBox Machines to "Network NAT"
 

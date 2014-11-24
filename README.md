@@ -620,6 +620,22 @@ The sender uses a Mail User Agent (MUA), or email client, to send the message th
 ```
 MUA -(smtp)-> MTA -(smtp)-> ... -(smtp)-> MTA -(smtp)-> MDA -(pop|imap)-> MUA
 ```
+### Postfix
+
+```
+$ sudo apt-get install postfix
+
+Local
+
+System mail name: server.domain.com
+
+
+```
+### Dovecot
+
+```
+$ sudo apt-get install dovecot-imapd dovecot-pop3d
+```
 
 ## VirtualBox
 

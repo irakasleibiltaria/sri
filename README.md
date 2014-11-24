@@ -629,8 +629,12 @@ Local
 
 System mail name: server.domain.com
 
-
 ```
+Reconfigure: 
+```
+$ sudo dpkg-reconfigure postfix
+```
+
 ### Dovecot
 
 ```

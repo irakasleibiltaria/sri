@@ -635,6 +635,21 @@ Reconfigure:
 $ sudo dpkg-reconfigure postfix
 ```
 
+```
+1. Local Only
+2. mail.domain.com
+3. admin_name
+4. mail.example.com, localhost.localdomain, localhost
+5. No
+6. 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128 192.168.0.0/24
+7. 0
+8. +
+9. All
+```
+
+####Telnet smtp commands
+http://www.yuki-onna.co.uk/email/smtp.html
+
 ### Dovecot
 
 ```

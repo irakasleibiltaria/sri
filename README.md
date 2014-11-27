@@ -668,7 +668,7 @@ $ sudo apt-get install dovecot-imapd dovecot-pop3d
 
 ### Monowall
 
-[(internal network) PC1 - PC2 - ... - Monowall][Bridge] <-> internet
+[(internal network) PC1 - PC2 - ... - Monowall][Bridge | NAT] <-> internet
 
 http://m0n0.ch/
 

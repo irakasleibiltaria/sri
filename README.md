@@ -666,6 +666,14 @@ $ sudo apt-get install dovecot-imapd dovecot-pop3d
 
 ## VirtualBox
 
+### Monowall
+
+[(internal network) PC1 - PC2 - ... - Monowall][Bridge] <-> internet
+
+http://m0n0.ch/
+
+
+
 ### Network NAT
 
 https://www.virtualbox.org/manual/ch06.html#network_nat_service

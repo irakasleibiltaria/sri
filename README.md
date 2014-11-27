@@ -672,6 +672,7 @@ $ sudo apt-get install dovecot-imapd dovecot-pop3d
 
 http://m0n0.ch/
 
+Use IDE - FAT32 disk to install it.
 
 
 ### Network NAT

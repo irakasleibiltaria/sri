@@ -705,6 +705,23 @@ Restart
 sudo service dovecot restart
 ```
 
+Dovecot configuration parameters list:
+```
+$ doveconf -n
+OR
+$ doveconf -a
+```
+
+POP3 test:
+
+http://www.anta.net/misc/telnet-troubleshooting/pop.shtml
+
+
+Errors:
+
+Plaintext: http://www.dovecot.org/list/dovecot/2012-June/083863.html
+
+
 ## VirtualBox
 
 ### Monowall

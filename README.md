@@ -618,8 +618,14 @@ http://www.mailgun.com/
 
 ### DNS MX records
 ```
-mail			IN 	A	192.168.1.1
-mail.server.name.	IN	MX	10   mail.server.name.
+@	IN	MX	10   mail.domain.com.
+; OR
+; domain.com.	IN	MX	10   mail.domain.com.
+mail	IN 	A	192.168.1.1
+```
+To test MX record:
+```
+$ dig -t MX domain.com
 ```
 
 ### M_X_A

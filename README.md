@@ -690,6 +690,21 @@ http://www.yuki-onna.co.uk/email/smtp.html
 $ sudo apt-get install dovecot-imapd dovecot-pop3d
 ```
 
+/etc/dovecot/dovecot.conf
+```
+protocols = pop3 pop3s imap imaps
+```
+/etc/dovecot/conf.d/10-mail.conf
+```
+mail_location = maildir:~/Maildir # (for maildir)
+or
+mail_location = mbox:~/mail:INBOX=/var/spool/mail/%u # (for mbox)
+```
+Restart
+```
+sudo service dovecot restart
+```
+
 ## VirtualBox
 
 ### Monowall

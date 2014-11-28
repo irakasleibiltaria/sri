@@ -640,6 +640,12 @@ This is a test email
 ```
 Now you can see the email in /var/email
 If you want to change mailbox to other place:
+```
+$ sudo postconf -e 'home_mailbox = Maildir/'
+``` 
+Now, the email is stored in /home/user/Maildir
+
+
 
 
 ### M_X_A

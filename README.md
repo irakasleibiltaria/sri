@@ -630,24 +630,6 @@ To test MX record:
 $ dig -t MX domain.com
 ```
 
-Send a test mail:
-```
-sendmail recipient@elsewhere.com
-From: you@example.com
-Subject: Test mail
-This is a test email
-.
-```
-Now you can see the email in /var/email
-If you want to change mailbox to other place:
-```
-$ sudo postconf -e 'home_mailbox = Maildir/'
-``` 
-Now, the email is stored in /home/user/Maildir
-
-Postfix sends all log messages to /var/log/mail.log
-
-
 ### M_X_A
 
 The sender uses a Mail User Agent (MUA), or email client, to send the message through one or more Mail Transfer Agents (MTA), the last of which will hand it off to a Mail Delivery Agent (MDA) for delivery to the recipient's mailbox, from which it will be retrieved by the recipient's email client, usually via a POP3 or IMAP server.
@@ -680,6 +662,24 @@ $ sudo dpkg-reconfigure postfix
 8. +
 9. All
 ```
+
+Send a test mail:
+```
+sendmail recipient@elsewhere.com
+From: you@example.com
+Subject: Test mail
+This is a test email
+.
+```
+Now you can see the email in /var/email
+If you want to change mailbox to other place:
+```
+$ sudo postconf -e 'home_mailbox = Maildir/'
+``` 
+Now, the email is stored in /home/user/Maildir
+
+Postfix sends all log messages to /var/log/mail.log
+
 
 ####Telnet smtp commands
 http://www.yuki-onna.co.uk/email/smtp.html

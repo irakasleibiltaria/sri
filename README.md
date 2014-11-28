@@ -618,7 +618,7 @@ http://www.mailgun.com/
 
 ### DNS MX records
 ```
-mail.server.name	IN 	A	192.168.1.1
+mail			IN 	A	192.168.1.1
 mail.server.name.	IN	MX	10   mail.server.name.
 ```
 
@@ -673,6 +673,8 @@ $ sudo apt-get install dovecot-imapd dovecot-pop3d
 http://m0n0.ch/
 
 Use IDE - FAT32 disk to install it.
+Disable "Block private networks" in: Interfaces->WAN
+Then add an NAT rule for ssh. Don't forget to check the option to apply firewall rule.
 
 
 ### Network NAT

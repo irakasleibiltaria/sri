@@ -594,6 +594,8 @@ https://help.ubuntu.com/14.04/serverguide/email-services.html
 
 https://help.ubuntu.com/community/Postfix
 
+https://www.linode.com/docs/email/postfix/postfix-smtp-debian7
+
 http://www.postfix.org/
 
 http://dovecot.org/
@@ -627,6 +629,18 @@ To test MX record:
 ```
 $ dig -t MX domain.com
 ```
+
+Send a test mail:
+```
+sendmail recipient@elsewhere.com
+From: you@example.com
+Subject: Test mail
+This is a test email
+.
+```
+Now you can see the email in /var/email
+If you want to change mailbox to other place:
+
 
 ### M_X_A
 

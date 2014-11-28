@@ -721,6 +721,16 @@ Errors:
 
 Plaintext: http://www.dovecot.org/list/dovecot/2012-June/083863.html
 
+###Squirrelmail
+
+https://help.ubuntu.com/community/Squirrelmail
+
+http://squirrelmail.org/
+
+```
+$ sudo apt-get install squirrelmail
+```
+
 
 ## VirtualBox
 

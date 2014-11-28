@@ -645,7 +645,7 @@ $ sudo postconf -e 'home_mailbox = Maildir/'
 ``` 
 Now, the email is stored in /home/user/Maildir
 
-
+Postfix sends all log messages to /var/log/mail.log
 
 
 ### M_X_A

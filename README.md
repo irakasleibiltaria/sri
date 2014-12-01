@@ -653,7 +653,7 @@ $ sudo dpkg-reconfigure postfix
 
 ```
 1. Internet
-(1. Local only: if you want to use ONLY with local clients like squirremail)
+(1. Local only: if you want to use ONLY with local clients like squirrelmail)
 2. domain.com
 3. admin_user_name
 4. domain.com, mail.example.com, localhost.localdomain, localhost
@@ -680,6 +680,11 @@ $ sudo postconf -e 'home_mailbox = Maildir/'
 Now, the email is stored in /home/user/Maildir
 
 Postfix sends all log messages to /var/log/mail.log
+
+####SSL/TLS postfix
+SSL/TLS
+
+http://www.postfix.org/TLS_README.html
 
 
 ####Telnet smtp commands
@@ -741,6 +746,7 @@ https://help.ubuntu.com/community/Squirrelmail
 http://squirrelmail.org/
 
 ```
+$ sudo apt-get install php5
 $ sudo apt-get install squirrelmail
 ```
 

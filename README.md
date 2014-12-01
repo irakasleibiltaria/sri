@@ -751,6 +751,24 @@ http://squirrelmail.org/
 $ sudo apt-get install php5
 $ sudo apt-get install squirrelmail
 ```
+Configure:
+```
+$ sudo squirrelmail-configure
+...
+```
+Apache configuration:
+```
+$ sudo cp /etc/squirrelmail/apache.conf /etc/apache2/sites-available/squirrelmail.conf
+$ sudo a2ensite squirrelmail.conf
+$ sudo service apache2 reload
+```
+test:
+```
+http://localhost/squirrelmail
+```
+Admin:
+
+http://squirrelmail.org/docs/admin/admin-5.html
 
 
 ## VirtualBox

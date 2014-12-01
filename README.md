@@ -770,6 +770,14 @@ Admin:
 
 http://squirrelmail.org/docs/admin/admin-5.html
 
+TODO:
+
+- HTTPS
+- 
+
+###Exchange 2008
+TODO
+
 
 ## VirtualBox
 

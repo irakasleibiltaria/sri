@@ -684,6 +684,8 @@ Postfix sends all log messages to /var/log/mail.log
 ####SSL/TLS postfix
 SSL/TLS
 
+https://help.ubuntu.com/14.04/serverguide/postfix.html#postfix-smtp-authentication
+
 http://www.postfix.org/TLS_README.html
 
 

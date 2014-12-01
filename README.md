@@ -692,6 +692,12 @@ http://www.postfix.org/TLS_README.html
 ####Telnet smtp commands
 http://www.yuki-onna.co.uk/email/smtp.html
 
+```
+telnet mail.domain.zz 25
+
+
+```
+
 ### Dovecot
 
 ```
@@ -723,8 +729,13 @@ $ doveconf -a
 POP3 test:
 
 http://www.anta.net/misc/telnet-troubleshooting/pop.shtml
+
+https://workaround.org/ispmail/lenny/test-fetching-with-imap-and-pop3
+
+POP3:
 ```
-C:\ telnet mail.domain.com 110
+telnet mail.domain.com 110
+(telnet mail.domain.com pop3)
 
 user <username>
 pass <password>
@@ -733,7 +744,12 @@ retr <num>
 quit
 ```
 
+IMAP:
+```
+telnet mail.domain.com imap
 
+
+```
 Errors:
 
 Plaintext: http://www.dovecot.org/list/dovecot/2012-June/083863.html

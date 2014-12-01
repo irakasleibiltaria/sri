@@ -723,6 +723,15 @@ $ doveconf -a
 POP3 test:
 
 http://www.anta.net/misc/telnet-troubleshooting/pop.shtml
+```
+C:\ telnet mail.domain.com 110
+
+user <username>
+pass <password>
+list
+retr <num>
+quit
+```
 
 
 Errors:

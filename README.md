@@ -721,6 +721,18 @@ Errors:
 
 Plaintext: http://www.dovecot.org/list/dovecot/2012-June/083863.html
 
+Solution:
+
+```
+/etc/dovecot/conf.d/10-auth.conf
+
+disable_plaintext_auth = no
+```
+restart:
+```
+sudo service dovecot restart
+```
+
 ###Squirrelmail
 
 https://help.ubuntu.com/community/Squirrelmail

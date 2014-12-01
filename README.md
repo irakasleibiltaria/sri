@@ -652,9 +652,10 @@ $ sudo dpkg-reconfigure postfix
 ```
 
 ```
-1. Local Only
+1. Internet
+(1. Local only: if you want to use ONLY with local clients like squirremail)
 2. domain.com
-3. admin_name
+3. admin_user_name
 4. domain.com, mail.example.com, localhost.localdomain, localhost
 5. No
 6. 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128

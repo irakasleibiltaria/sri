@@ -170,8 +170,37 @@ $ ipconfig /flushdns
 
 ### Reverse zone
 
-TODO
+Edit Edit /etc/bind/named.conf.local and and the following:
+```
+zone "1.168.192.in-addr.arpa" {
+        type master;
+        file "/etc/bind/db.192";
+};
+```
+Now create the /etc/bind/db.192 file:
+```
+sudo cp /etc/bind/db.127 /etc/bind/db.192
+```
+Next edit /etc/bind/db.192 changing the basically the same options as /etc/bind/db.example.com:
+```
+;
+; BIND reverse data file for local 192.168.1.XXX net
+;
+$TTL    604800
+@       IN      SOA     ns.example.com. root.example.com. (
+                              2         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      ns.
+10      IN      PTR     ns.example.com.
+```
+Test:
+```
 
+```
 ### Secondary Master
 
 https://help.ubuntu.com/12.04/serverguide/dns-configuration.html#dns-secondarymaster-configuration

@@ -663,6 +663,13 @@ To test MX record:
 $ dig -t MX domain.com
 ```
 
+```
+c:\ nslookup
+set q=MX
+domain.com
+(OR domain.com.)
+```
+
 ### M_X_A
 
 The sender uses a Mail User Agent (MUA), or email client, to send the message through one or more Mail Transfer Agents (MTA), the last of which will hand it off to a Mail Delivery Agent (MDA) for delivery to the recipient's mailbox, from which it will be retrieved by the recipient's email client, usually via a POP3 or IMAP server.

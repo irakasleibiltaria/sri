@@ -665,6 +665,7 @@ $ dig -t MX domain.com
 
 ```
 c:\ nslookup
+server 192.168.1.1   (DNS server IP. Not required)
 set q=MX
 domain.com
 (OR domain.com.)

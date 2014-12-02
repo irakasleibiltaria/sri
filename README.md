@@ -759,11 +759,13 @@ OR
 $ doveconf -a
 ```
 
-POP3 test:
+####test:
 
 http://www.anta.net/misc/telnet-troubleshooting/pop.shtml
 
 https://workaround.org/ispmail/lenny/test-fetching-with-imap-and-pop3
+
+http://wiki2.dovecot.org/TestInstallation
 
 POP3:
 ```
@@ -780,8 +782,11 @@ quit
 IMAP:
 ```
 telnet mail.domain.com imap
+telnet mail.domain.com 143
 
-
+a login "username" "password"
+b select inbox
+c logout
 ```
 Errors:
 

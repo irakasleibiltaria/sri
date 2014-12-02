@@ -202,6 +202,8 @@ Test:
 C:\ nslookup
 
 C:\ ping -a 192.168.1.1
+
+$ dig -x 192.168.1.1
 ```
 ### Secondary Master
 

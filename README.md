@@ -195,11 +195,13 @@ $TTL    604800
                          604800 )       ; Negative Cache TTL
 ;
 @       IN      NS      ns.
-10      IN      PTR     ns.example.com.
+1       IN      PTR     ns.example.com.
 ```
 Test:
 ```
+C:\ nslookup
 
+C:\ ping -a 192.168.1.1
 ```
 ### Secondary Master
 
@@ -845,6 +847,10 @@ Use IDE - FAT32 disk to install it.
 Disable "Block private networks" in: Interfaces->WAN
 Then add an NAT rule for ssh. Don't forget to check the option to apply firewall rule.
 
+
+### DIG
+
+http://www.thegeekstuff.com/2012/02/dig-command-examples/
 
 ### Network NAT
 

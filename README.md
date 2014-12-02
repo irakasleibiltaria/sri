@@ -543,6 +543,8 @@ GET
 
 ```
 
+Putty (ssh, telnet, ...)
+
 curl
 ```
 c:/> curl ....

@@ -12,10 +12,12 @@
 ```
 dcpromo
 ```
-###Install exchange
-
-PowerShell:
+6 - Install PowerShell:
 ```
 ServerManagerCMD –i PowerShell 
 ```
+7 - Install IIS (ALL)
+
+8 - Install Exchange
+
 

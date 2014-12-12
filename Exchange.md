@@ -12,8 +12,10 @@
 ```
 dcpromo
 ```
+###Install exchange
 
+PowerShell:
 ```
-
+ServerManagerCMD –i PowerShell 
 ```
 

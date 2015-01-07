@@ -15,3 +15,5 @@ CentOS:
 http://www.centos.org/
 
 https://www.howtoforge.com/linux-basics-set-a-static-ip-on-centos
+
+https://gist.github.com/fernandoaleman/2172388

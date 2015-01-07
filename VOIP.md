@@ -13,3 +13,5 @@ http://www.linphone.org/
 CentOS:
 
 http://www.centos.org/
+
+https://www.howtoforge.com/linux-basics-set-a-static-ip-on-centos

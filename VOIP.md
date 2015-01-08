@@ -28,6 +28,10 @@ http://en.wikipedia.org/wiki/CentOS
 
 https://www.centos.org/docs/5/html/Deployment_Guide-en-US/ch-sysconfig.html
 
+https://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-networkscripts-interfaces.html
+
+https://www.centos.org/docs/5/html/Deployment_Guide-en-US/index.html
+
 https://www.centos.org/docs/5/html/5.1/Deployment_Guide/s2-sysconfig-kybd.html
 
 

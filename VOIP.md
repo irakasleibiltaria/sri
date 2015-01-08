@@ -21,3 +21,13 @@ https://gist.github.com/fernandoaleman/2172388
 Elastix Install:
 
 web username/password: http://elastixtech.com/restablecer-clave-de-admin-en-elastix/
+
+CentOS:
+
+http://en.wikipedia.org/wiki/CentOS
+
+https://www.centos.org/docs/5/html/Deployment_Guide-en-US/ch-sysconfig.html
+
+https://www.centos.org/docs/5/html/5.1/Deployment_Guide/s2-sysconfig-kybd.html
+
+

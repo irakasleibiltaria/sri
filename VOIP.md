@@ -20,7 +20,7 @@ https://gist.github.com/fernandoaleman/2172388
 
 Elastix Install:
 
-web access username: 'admin' or 'superadmin' for 3.0
+web access username: 'admin' 
 
 web username/password: http://elastixtech.com/restablecer-clave-de-admin-en-elastix/
 

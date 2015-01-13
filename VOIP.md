@@ -10,6 +10,8 @@ http://www.3cx.com/
 
 http://www.linphone.org/
 
+http://www.counterpath.com/x-lite
+
 CentOS:
 
 http://www.centos.org/

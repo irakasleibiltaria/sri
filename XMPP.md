@@ -38,7 +38,8 @@ $ sudo apt-get remove --purge openjdk*
 
 $ sudo add-apt-repository ppa:webupd8team/java
 $ sudo apt-get update
-$ sudo apt-get install oracle-java8-installer
+$ sudo apt-get install oracle-java6-installer
+$ sudo apt-get install oracle-java7-installer
 
 $ wget openfire_3.9.3_all.deb http://www.igniterealtime.org/downloads/download-landing.jsp?file=openfire/openfire_3.9.3_all.deb
 $ sudo dpkg -i openfire_X.deb

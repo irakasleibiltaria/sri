@@ -33,7 +33,9 @@ http://www.igniterealtime.org/projects/openfire/
 
 Download openfire_X.deb from the Web
 ```
-$ sudo apt-get install openjdk-7-jre
-$ sudo apt-get install openjdk-7-jre
+$ sudo add-apt-repository ppa:webupd8team/java
+$ sudo apt-get update
+$ sudo apt-get install oracle-java8-installer
+
 $ sudo dpkg -i openfire_X.deb
 ```

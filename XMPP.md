@@ -31,11 +31,15 @@ $ http://
 
 http://www.igniterealtime.org/projects/openfire/
 
-Download openfire_X.deb from the Web
+https://www.thefanclub.co.za/how-to/how-setup-im-voip-server-using-openfire-ubuntu-1204
+
 ```
+$ sudo apt-get remove --purge openjdk*
+
 $ sudo add-apt-repository ppa:webupd8team/java
 $ sudo apt-get update
 $ sudo apt-get install oracle-java8-installer
 
+$ wget openfire_3.9.3_all.deb http://www.igniterealtime.org/downloads/download-landing.jsp?file=openfire/openfire_3.9.3_all.deb
 $ sudo dpkg -i openfire_X.deb
 ```

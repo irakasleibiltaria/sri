@@ -69,7 +69,10 @@ Advanced:Connected Server:[IP]
 
 ####More
 Add search plugin TODO
+
 conference
+
+
 
 ## eJabberd
 

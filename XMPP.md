@@ -16,16 +16,6 @@ https://www.pidgin.im/
 
 http://www.igniterealtime.org/projects/spark/
 
-## eJabberd
-
-Install:
-```
-$ sudo apt-get install ejabberd
-```
-Admin:
-```
-$ http://
-```
 
 ## OpenFire
 
@@ -54,17 +44,39 @@ $ sudo dpkg -i openfire_X.deb
 Admin:
 
 ```
+http://[Server IP]:9090
+OR
 http://[Server IP]:9090/sertup/index.jsp
 
 user:admin
 password:XXXXXX
+
+domain: [IP] or domain.name
+```
+####Client configuration:
+First create user using Web admin tool
+
+Spark:
+user: username
+Server: [IP] or domain.name
+
+Pidgin:
+username: username
+Domain: [IP] or domain.name?
+Advanced:Connected Server:[IP]
+
+## eJabberd
+
+Install:
+```
+$ sudo apt-get install ejabberd
+```
+Admin:
+```
+$ http://
 ```
 
 
 ## Jabberd
 
 https://help.ubuntu.com/14.04/serverguide/jabberd2-server.html
-
-```
-TODO
-```

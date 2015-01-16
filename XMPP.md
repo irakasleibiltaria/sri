@@ -41,8 +41,16 @@ $ sudo apt-get update
 $ sudo apt-get install oracle-java6-installer
 $ sudo apt-get install oracle-java7-installer
 
+(OR openjdk? TO TEST)
+
 $ wget openfire_3.9.3_all.deb http://www.igniterealtime.org/downloads/download-landing.jsp?file=openfire/openfire_3.9.3_all.deb
 $ sudo dpkg -i openfire_X.deb
+```
+
+Admin:
+
+```
+http://[Server IP]:9090/sertup/index.jsp
 ```
 
 ## Jabberd

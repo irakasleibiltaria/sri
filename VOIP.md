@@ -28,6 +28,8 @@ web username/password: http://elastixtech.com/restablecer-clave-de-admin-en-elas
 
 https://www.youtube.com/watch?v=4WWPv3FKtt4
 
+https://www.youtube.com/watch?v=h87Im71MBrg
+
 http://www.masip.es/asterisk-vs-elastix/
 
 http://www.pcactual.com/articulo/zona_practica/paso_a_paso/4503/monta_centralita_voip.html

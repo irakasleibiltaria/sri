@@ -51,7 +51,11 @@ Admin:
 
 ```
 http://[Server IP]:9090/sertup/index.jsp
+
+user:admin
+password:XXXXXX
 ```
+
 
 ## Jabberd
 

@@ -23,6 +23,8 @@ http://www.igniterealtime.org/projects/openfire/
 
 https://www.thefanclub.co.za/how-to/how-setup-im-voip-server-using-openfire-ubuntu-1204
 
+https://www.youtube.com/watch?v=BFHiRYRx79E
+
 ```
 $ sudo apt-get remove --purge openjdk*
 
@@ -64,6 +66,9 @@ Pidgin:
 username: username
 Domain: [IP] or domain.name?
 Advanced:Connected Server:[IP]
+
+####Plugin
+Add search plugin
 
 ## eJabberd
 

@@ -44,3 +44,11 @@ $ sudo apt-get install oracle-java7-installer
 $ wget openfire_3.9.3_all.deb http://www.igniterealtime.org/downloads/download-landing.jsp?file=openfire/openfire_3.9.3_all.deb
 $ sudo dpkg -i openfire_X.deb
 ```
+
+## Jabberd
+
+https://help.ubuntu.com/14.04/serverguide/jabberd2-server.html
+
+```
+TODO
+```

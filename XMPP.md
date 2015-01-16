@@ -41,7 +41,11 @@ $ sudo apt-get update
 $ sudo apt-get install oracle-java6-installer
 $ sudo apt-get install oracle-java7-installer
 
-(OR openjdk? TO TEST)
+(
+OR openjdk? TO TEST
+$ sudo apt-get install default-jre
+$ sudo apt-get install default-sdk
+)
 
 $ wget openfire_3.9.3_all.deb http://www.igniterealtime.org/downloads/download-landing.jsp?file=openfire/openfire_3.9.3_all.deb
 $ sudo dpkg -i openfire_X.deb

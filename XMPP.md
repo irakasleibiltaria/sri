@@ -68,7 +68,7 @@ Domain: [IP] or domain.name?
 Advanced:Connected Server:[IP]
 
 ####Plugin
-Add search plugin
+Add search plugin TODO
 
 ## eJabberd
 

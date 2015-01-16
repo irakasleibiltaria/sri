@@ -67,8 +67,9 @@ username: username
 Domain: [IP] or domain.name?
 Advanced:Connected Server:[IP]
 
-####Plugin
+####More
 Add search plugin TODO
+conference
 
 ## eJabberd
 

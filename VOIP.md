@@ -1,8 +1,10 @@
+## Servers
+
 http://www.asterisk.org/
 
 http://www.elastix.org/
 
-Phones:
+## Phones:
 
 http://www.zoiper.com/en
 
@@ -12,29 +14,27 @@ http://www.linphone.org/
 
 http://www.counterpath.com/x-lite
 
-CentOS:
+
+## Elastix Install:
+
+web access username: 'admin' 
+
+https://www.youtube.com/watch?v=h87Im71MBrg
+
+https://www.youtube.com/watch?v=4WWPv3FKtt4
+
+http://www.masip.es/asterisk-vs-elastix/
+
+http://www.pcactual.com/articulo/zona_practica/paso_a_paso/4503/monta_centralita_voip.html
+
+
+## CentOS:
 
 http://www.centos.org/
 
 https://www.howtoforge.com/linux-basics-set-a-static-ip-on-centos
 
 https://gist.github.com/fernandoaleman/2172388
-
-Elastix Install:
-
-web access username: 'admin' 
-
-web username/password: http://elastixtech.com/restablecer-clave-de-admin-en-elastix/
-
-https://www.youtube.com/watch?v=4WWPv3FKtt4
-
-https://www.youtube.com/watch?v=h87Im71MBrg
-
-http://www.masip.es/asterisk-vs-elastix/
-
-http://www.pcactual.com/articulo/zona_practica/paso_a_paso/4503/monta_centralita_voip.html
-
-CentOS:
 
 http://en.wikipedia.org/wiki/CentOS
 

@@ -27,6 +27,8 @@ https://www.xsplit.com
 
 https://obsproject.com/
 
+http://www.techradar.com/news/television/how-to-network-your-smart-tv-1101206
+
 
 ##Icecast2
 

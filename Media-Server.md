@@ -30,6 +30,8 @@ https://obsproject.com/
 
 ##Icecast2
 
+https://www.youtube.com/watch?v=wSi91Rm9mQs
+
 ```
 $ sudo apt-get install icecast2
 ```

@@ -13,6 +13,8 @@ http://en.wikipedia.org/wiki/Codec
 
 
 
+http://en.wikipedia.org/wiki/Comparison_of_streaming_media_systems
+
 http://icecast.org/
 
 https://www.videolan.org/

@@ -30,6 +30,13 @@ https://obsproject.com/
 
 ##Icecast2
 
+```
+$ sudo apt-get install icecast2
+```
+admin:
+```
+http://[IP | localhost | domain.name]:8000/
+```
 config file: icecast.xml
 
 WEB admin user/password: admin/hacme

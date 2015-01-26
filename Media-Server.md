@@ -31,6 +31,8 @@ http://www.techradar.com/news/television/how-to-network-your-smart-tv-1101206
 
 http://www.ps3mediaserver.org/
 
+http://www.dlna.org/consumer-home
+
 
 ##Icecast2
 

@@ -13,9 +13,6 @@ http://en.wikipedia.org/wiki/Codec
 
 
 
-
-
-
 http://icecast.org/
 
 https://www.videolan.org/
@@ -26,4 +23,14 @@ https://www.xsplit.com
 
 https://obsproject.com/
 
+
+##Icecast2
+
+config file: icecast.xml
+
+WEB admin user/password: admin/hacme
+
+Mount a file:
+
+http://icecast.org/docs/icecast-2.4.0/config-file.html#mountsettings
 

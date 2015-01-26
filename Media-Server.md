@@ -36,3 +36,6 @@ Mount a file:
 
 http://icecast.org/docs/icecast-2.4.0/config-file.html#mountsettings
 
+## VCL & Winamp
+
+https://www.youtube.com/watch?v=T4qh8ivuXaw

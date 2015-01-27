@@ -45,6 +45,8 @@ http://bernaerts.dyndns.org/linux/74-ubuntu/240-ubuntu-precise-upnp-dlna-client
 
 http://askubuntu.com/questions/413335/ubuntu-13-10-desktop-and-rhythmbox
 
+http://kodi.tv/
+
 
 ##Icecast2
 

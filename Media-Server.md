@@ -44,6 +44,9 @@ https://www.ebower.com/docs/ubuntu-dlna-player/
 http://bernaerts.dyndns.org/linux/74-ubuntu/240-ubuntu-precise-upnp-dlna-client
 
 http://askubuntu.com/questions/413335/ubuntu-13-10-desktop-and-rhythmbox
+```
+$ sudo apt-get install rhythmbox-plugins
+```
 
 
 ##Icecast2

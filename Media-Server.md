@@ -39,6 +39,10 @@ http://askubuntu.com/questions/467827/cannot-install-ps3-media-server-on-ubuntu-
 
 http://www.dlna.org/consumer-home
 
+https://www.ebower.com/docs/ubuntu-dlna-player/
+
+http://bernaerts.dyndns.org/linux/74-ubuntu/240-ubuntu-precise-upnp-dlna-client
+
 
 ##Icecast2
 

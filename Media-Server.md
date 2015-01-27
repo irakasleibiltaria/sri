@@ -23,6 +23,8 @@ https://www.videolan.org/
 
 https://plex.tv/
 
+https://play.google.com/store/apps/details?id=com.dbapp.android.mediahouse&hl=en
+
 https://www.xsplit.com
 
 https://obsproject.com/
@@ -60,3 +62,11 @@ http://icecast.org/docs/icecast-2.4.0/config-file.html#mountsettings
 ## VCL & Winamp
 
 https://www.youtube.com/watch?v=T4qh8ivuXaw
+
+## Plex
+
+https://plex.tv/
+
+https://play.google.com/store/apps/details?id=com.dbapp.android.mediahouse&hl=en
+
+

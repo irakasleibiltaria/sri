@@ -33,7 +33,7 @@ http://www.ps3mediaserver.org/
 
 https://help.ubuntu.com/community/Ps3MediaServer
 
-http://adam.pohorecki.pl/blog/2014/05/16/how-to-install-ps3-media-server-on-ubuntu-14-dot-04-trusty-tahr/
+http://askubuntu.com/questions/467827/cannot-install-ps3-media-server-on-ubuntu-14-04-lts
 
 http://www.dlna.org/consumer-home
 

@@ -31,8 +31,6 @@ http://www.techradar.com/news/television/how-to-network-your-smart-tv-1101206
 
 http://www.ps3mediaserver.org/
 
-https://help.ubuntu.com/community/Ps3MediaServer
-
 http://www.dlna.org/consumer-home
 
 

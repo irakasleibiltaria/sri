@@ -11,6 +11,8 @@ http://es.wikipedia.org/wiki/C%C3%B3dec
 
 http://en.wikipedia.org/wiki/Codec
 
+http://en.wikipedia.org/wiki/Comparison_of_video_codecs
+
 http://help.encoding.com/knowledge-base/article/understanding-bitrates-in-video-files/
 
 
